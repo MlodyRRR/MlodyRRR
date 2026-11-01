@@ -1,9 +1,6 @@
 <div align="center">
 
-[![MlodyR](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=2500&pause=800&color=1DB954&center=true&vCenter=true&multiline=false&repeat=true&width=435&height=60&lines=MlodyR)](https://github.com/MlodyRRR)
-
-[![GitHub](https://img.shields.io/badge/GITHUB-MlodyRRR-121212?style=for-the-badge&logo=github&logoColor=1DB954)](https://github.com/MlodyRRR)
-[![Spotify](https://img.shields.io/badge/SPOTIFY-Listen-121212?style=for-the-badge&logo=spotify&logoColor=1DB954)](https://open.spotify.com/user/31ixqkhs5d3fvslxm74ldb6wj5t4)
+[![MlodyR](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=4200&pause=1800&color=1DB954&center=true&vCenter=true&multiline=true&repeat=true&width=520&height=100&lines=MlodyR;code+%26+music;GitHub+%C2%B7+Spotify)](https://github.com/MlodyRRR)
 
 </div>
 
@@ -28,5 +25,13 @@
 <br>
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=MlodyRRR.MlodyRRR&left_color=%23121212&right_color=%231DB954&left_text=profile%20views" alt="Profile views">
+  <a href="https://github.com/MlodyRRR">
+    <img src="https://img.shields.io/badge/GitHub-MlodyRRR-121212?style=flat-square&logo=github&logoColor=1DB954" alt="GitHub" height="20">
+  </a>
+  &nbsp;
+  <a href="https://open.spotify.com/user/31ixqkhs5d3fvslxm74ldb6wj5t4">
+    <img src="https://img.shields.io/badge/Spotify-Listen-121212?style=flat-square&logo=spotify&logoColor=1DB954" alt="Spotify" height="20">
+  </a>
+  &nbsp;
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=MlodyRRR.MlodyRRR&left_color=%23121212&right_color=%231DB954&left_text=profile%20views" alt="Profile views" height="20">
 </div>
