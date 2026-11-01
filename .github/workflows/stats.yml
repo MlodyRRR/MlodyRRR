@@ -17,11 +17,26 @@ jobs:
 
     steps:
       - name: Fetch Spotify-colored stats.svg
+        env:
+          # Optional: classic PAT with read:user — enables private commits in the card.
+          STATS_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           mkdir -p dist
-          # Generated in CI, then hosted on stats-output — README never hits vercel rate limits.
-          curl -fsSL -o dist/stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_rank=false&cache_seconds=1800&title_color=1DB954&icon_color=1DB954&text_color=B3B3B3&bg_color=121212&ring_color=1DB954"
+          USER="${{ github.repository_owner }}"
+          BASE="https://github-readme-stats.vercel.app/api"
+          QS="username=${USER}&show_icons=true&include_all_commits=true&hide_border=true&hide_rank=false&cache_seconds=1800&title_color=1DB954&icon_color=1DB954&text_color=B3B3B3&bg_color=121212&ring_color=1DB954"
+          if [ -n "$STATS_TOKEN" ]; then
+            QS="${QS}&count_private=true&token=${STATS_TOKEN}"
+          fi
+          echo "Fetching stats for ${USER}"
+          curl -fsSL -o dist/stats.svg "${BASE}?${QS}"
+          # Fail the job if the API returned an error card
+          if grep -q "Something went wrong" dist/stats.svg; then
+            echo "Stats API returned an error SVG:"
+            head -c 500 dist/stats.svg
+            exit 1
+          fi
+          ls -la dist/stats.svg
 
       - name: Push stats.svg to stats-output
         uses: crazy-max/ghaction-github-pages@v3.1.0
