@@ -1,38 +1,32 @@
-<div align="center">
+<h6 data-importer="text" align="center">MlodyR - Welcome to my profile</h6>
 
-# MlodyR
+###
 
-GitHub profile · Code & music
-
-[![GitHub](https://img.shields.io/badge/GITHUB-MlodyRRR-161b22?style=for-the-badge&logo=github&logoColor=c9d1d9)](https://github.com/MlodyRRR)
-[![Spotify](https://img.shields.io/badge/SPOTIFY-Listen-161b22?style=for-the-badge&logo=spotify&logoColor=c9d1d9)](https://open.spotify.com/user/31ixqkhs5d3fvslxm74ldb6wj5t4)
-
-</div>
-
-<br>
-
-### Contributions
-
-<picture>
+<picture data-importer="pacman">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
-  <img alt="GitHub contribution graph — Bomberman" src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/pacman-output/bomberman-contribution-graph.svg?game=bomberman" width="100%">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
 </picture>
 
-<br>
+###
 
-### Stats & music
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/stats-output/stats.svg?hide_title=false&amp;hide_rank=false&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;disable_animations=false&amp;theme=dracula&amp;locale=en&amp;hide_border=false&amp;order=1" height="150" alt="GitHub stats">
+<div data-importer="music" align="center">
   <a href="https://open.spotify.com/user/31ixqkhs5d3fvslxm74ldb6wj5t4">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31ixqkhs5d3fvslxm74ldb6wj5t4&amp;count=5&amp;unique=false" alt="Recently played on Spotify" height="150">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31ixqkhs5d3fvslxm74ldb6wj5t4&count=5&unique=false" alt="Spotify recently played"  />
   </a>
-</p>
-
-<br>
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=MlodyRRR.MlodyRRR&amp;left_color=%23161b22&amp;right_color=%2330363d&amp;left_text=profile%20views" alt="Profile views">
 </div>
 
+###
+
+<div data-importer="profile-views" align="center">
+  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=MlodyRRR.MlodyRRR&"  />
+</div>
+
+###
+
+<div data-importer="stats" align="center">
+  <img src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
+
+###
