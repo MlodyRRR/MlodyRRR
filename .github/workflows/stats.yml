@@ -16,27 +16,12 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate stats.svg
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          # Spotify-matched: near-black card, green accents
-          options: >-
-            username=${{ github.repository_owner }}&
-            show_icons=true&
-            include_all_commits=true&
-            count_private=true&
-            hide_border=true&
-            hide_title=false&
-            theme=default&
-            title_color=1DB954&
-            icon_color=1DB954&
-            text_color=B3B3B3&
-            bg_color=121212&
-            ring_color=1DB954&
-            border_color=121212
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch Spotify-colored stats.svg
+        run: |
+          mkdir -p dist
+          # Generated in CI, then hosted on stats-output — README never hits vercel rate limits.
+          curl -fsSL -o dist/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_rank=false&cache_seconds=1800&title_color=1DB954&icon_color=1DB954&text_color=B3B3B3&bg_color=121212&ring_color=1DB954"
 
       - name: Push stats.svg to stats-output
         uses: crazy-max/ghaction-github-pages@v3.1.0
