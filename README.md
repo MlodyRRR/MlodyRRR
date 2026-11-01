@@ -19,10 +19,11 @@
 
 <br>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/stats-output/stats.svg" height="165" alt="GitHub stats">
-  <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31ixqkhs5d3fvslxm74ldb6wj5t4&logo=0&explicit=0&footer=wave" height="165" alt="Spotify recently played">
-</p>
+<div align="center">
+  <a href="https://open.spotify.com/user/31ixqkhs5d3fvslxm74ldb6wj5t4">
+    <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31ixqkhs5d3fvslxm74ldb6wj5t4&logo=0&explicit=0&footer=wave&count=5&width=900" alt="Spotify recently played" width="100%">
+  </a>
+</div>
 
 <br>
 
