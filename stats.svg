@@ -1,0 +1,29 @@
+<svg width="420" height="165" viewBox="0 0 420 165" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MlodyRRR GitHub stats">
+  <title>@MlodyRRR GitHub stats</title>
+  <rect width="420" height="165" rx="12" fill="#121212"/>
+  <rect x="0" y="0" width="6" height="165" fill="#1DB954"/>
+  <text x="24" y="36" fill="#1DB954" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="16" font-weight="700">MlodyRRR's GitHub Stats</text>
+  <g font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="13" font-weight="600">
+    <text x="24" y="70" fill="#1DB954">★</text>
+    <text x="46" y="70" fill="#B3B3B3">Total Stars:</text>
+    <text x="190" y="70" fill="#FFFFFF">3</text>
+
+    <text x="24" y="96" fill="#1DB954">📦</text>
+    <text x="46" y="96" fill="#B3B3B3">Public Repos:</text>
+    <text x="190" y="96" fill="#FFFFFF">2</text>
+
+    <text x="24" y="122" fill="#1DB954">⑂</text>
+    <text x="46" y="122" fill="#B3B3B3">Forks:</text>
+    <text x="190" y="122" fill="#FFFFFF">0</text>
+
+    <text x="24" y="148" fill="#1DB954">☺</text>
+    <text x="46" y="148" fill="#B3B3B3">Followers:</text>
+    <text x="190" y="148" fill="#FFFFFF">1</text>
+
+    <text x="250" y="70" fill="#B3B3B3">Following:</text>
+    <text x="360" y="70" fill="#FFFFFF">1</text>
+
+    <text x="250" y="96" fill="#B3B3B3">Recent pushes:</text>
+    <text x="360" y="96" fill="#FFFFFF">0</text>
+  </g>
+</svg>
