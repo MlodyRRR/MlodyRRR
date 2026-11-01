@@ -1,6 +1,8 @@
 <div align="center">
 
-[![MlodyR](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=4200&pause=1800&color=1DB954&center=true&vCenter=true&multiline=true&repeat=true&width=520&height=100&lines=MlodyR;code+%26+music;GitHub+%C2%B7+Spotify)](https://github.com/MlodyRRR)
+[![MlodyR](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=4500&pause=2200&color=1DB954&center=true&vCenter=true&multiline=false&repeat=true&width=435&height=60&lines=MlodyR)](https://github.com/MlodyRRR)
+
+<img src="https://raw.githubusercontent.com/MlodyRRR/MlodyRRR/main/divider.svg" width="100%" height="2" alt="">
 
 </div>
 

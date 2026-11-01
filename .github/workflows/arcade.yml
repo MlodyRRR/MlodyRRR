@@ -20,6 +20,8 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          # PAT with read:user picks up private contribs (same 94 as on your profile)
+          github_token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           games: "bomberman"
 
       - name: Push SVGs to output branch
